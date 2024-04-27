@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+
+.quem {
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+    margin-top: 128px;
+    margin-bottom: 20px;
+
+    color: white;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#perfil img {
+    border-radius: 5px;
+    width: 135px;
+}
+
+#perfil p {
+        font-size: 18px;
+        padding: 10px;
+}
+
+.perfil1 p {
+    color: rgb(117, 117, 117);
+    margin: 0px 15px;
+}
+
+.perfil2 p {
+    color: rgb(117, 117, 117);
+    margin: 0px 32px;
+}
+
+.perfil3 p {
+    color: rgb(117, 117, 117);
+    margin: 0px 22px;
+}
+
+.perfil4 p {
+    color: rgb(117, 117, 117);
+    margin: 0px 40px;
+}
+
+.perfil5 p {
+    color: rgb(117, 117, 117);
+    margin: 0px 30px;
+}
+
+.perfil1 img:hover {
+    border: 1px solid white;
+}
+
+.perfil2 img:hover {
+    border: 1px solid white;
+    
+}
+
+.perfil3 img:hover {
+    border: 1px solid white;
+}
+
+.perfil4 img:hover {
+    border: 1px solid white;
+}
+
+.perfil5 img:hover {
+    border: 1px solid white;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(150, 150, 150);
+    color: rgb(148, 147, 147);
+
+    padding: 7px;
+    margin: 60px auto;
+}
+
+button p {
+    margin: 2px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+button p:hover {
+    color: white;
+}
